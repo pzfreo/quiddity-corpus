@@ -1,8 +1,8 @@
 # quiddity-corpus
 
-STEP test corpora shared by [quiddity-rust](https://github.com/pzfreo/quiddity-rust) and [specify-core-rust](https://github.com/pzfreo/specify-core-rust). Consumers pin a commit of this repository and check the files' digests: quiddity-rust's `tests/fixtures/corpus.json` and `tests/corpus_files.rs`.
+STEP test corpora shared by [quiddity](https://github.com/pzfreo/quiddity) and [specify-core](https://github.com/pzfreo/specify-core). Consumers pin a commit of this repository and check the files' digests: quiddity's `tests/fixtures/corpus.json` and `tests/corpus_files.rs`.
 
-These files were split out of [pzfreo/quiddity](https://github.com/pzfreo/quiddity)'s `tests/corpus`, with history kept, when the Python implementation was retired in favour of the Rust one. Their content is identical to `tests/corpus` at quiddity commit `6d544e0`, the revision quiddity-rust's CI pinned.
+These files were split out of the Python implementation's `tests/corpus` ([pzfreo/quiddity-python](https://github.com/pzfreo/quiddity-python), then named pzfreo/quiddity), with history kept, when it was retired in favour of the Rust one. Their content is identical to `tests/corpus` at its commit `6d544e0`, the revision the Rust repository's CI (then quiddity-rust) pinned.
 
 | Directory | What it is |
 |---|---|

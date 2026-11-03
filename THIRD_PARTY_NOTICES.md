@@ -1,6 +1,6 @@
 # Third-party notices
 
-The test corpora in this repository were split out of pzfreo/quiddity's `tests/corpus` (history kept) so that quiddity-rust and specify-core-rust can pin them independently of the Python implementation. These notices are carried over from pzfreo/quiddity's THIRD_PARTY_NOTICES.md.
+The test corpora in this repository were split out of the Python implementation's `tests/corpus` (pzfreo/quiddity-python, then named pzfreo/quiddity; history kept) so that the Rust quiddity (then quiddity-rust) and specify-core can pin them independently of it. These notices are carried over from the Python implementation's THIRD_PARTY_NOTICES.md.
 
 ## Vendored test corpora
 
